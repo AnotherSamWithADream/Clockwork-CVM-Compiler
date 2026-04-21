@@ -36,6 +36,15 @@ python clockwork_pipeline.py
 *   **Paste Mode:** Copy-paste any Python snippet (including recursion and matrix math) directly into the terminal.
 *   **Interactive Testing:** Manually provide inputs and expected outputs to verify your code inside the rings.
 
+### Example: Running a Rubik's Cube Solver
+You can paste a complex IDA* search algorithm to solve a Rubik's Cube. 
+1.  Run the code in standard Python once to find the identifying result (e.g., the length of the solution path).
+2.  Run `python clockwork_pipeline.py` and choose **Option 2**.
+3.  Paste the script and type `EOF`.
+4.  Choose **Manual Input** when prompted for tests.
+5.  Provide the path length as the **Expected Output**.
+6.  The CVM will physically simulate the state transitions on the rings to yield that count!
+
 ## 🧪 Examples
 You can find complex examples like **Gaussian Elimination**, **SAT Solvers**, and **Alpha-Beta Search** in `ultimate_test.py`.
 
