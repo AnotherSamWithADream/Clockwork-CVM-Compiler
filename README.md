@@ -4,11 +4,10 @@
 This repository contains the first full-scale compiler toolchain for the **Clockwork** esoteric programming language (CMIMC Competition 2026). The stack enables the compilation and execution of the **entire Python Standard Library** within Clockwork's 2D rotating mechanical rings.
 
 ## 🚀 Key Features
-*   **Native CPython Compiler:** Bypasses LLM hallucinations by using CPython's actual `compile` and `dis` modules to generate machine-readable bytecode.
+*   **Native CPython Compiler:** Uses CPython's actual `compile` and `dis` modules to generate machine-readable bytecode.
 *   **Clockwork Virtual Machine (CVM):** A 24-bit virtualized CPU architecture physically mapped onto concentric rings, featuring a moving Stack Pointer and a dedicated FPU (Floating Point Unit).
 *   **JIT Simulation Engine:** A Node.js backend that precomputes ring alignments, capable of simulating millions of ticks instantly.
 *   **Interactive Orchestrator:** A unified CLI for compiling Python files or pasting code directly into the rings.
-*   **QLoRA Training Stack:** A professional-grade fine-tuning pipeline to train specialized AI models to understand the physical physics of the rings.
 
 ## 🏗️ Architecture
 The compiler uses a **Two-Stage Synthesis** approach:
@@ -24,11 +23,6 @@ Ensure you have Python 3.10+ and Node.js installed.
 # Clone the repository
 git clone https://github.com/YOUR_USERNAME/Clockwork-CVM-Compiler.git
 cd Clockwork-CVM-Compiler
-
-# Install Python dependencies
-pip install requests
-# (Optional: for AI training)
-pip install torch transformers datasets peft trl bitsandbytes accelerate
 ```
 
 ## 💻 Usage
