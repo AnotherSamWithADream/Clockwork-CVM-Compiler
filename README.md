@@ -21,7 +21,7 @@ Ensure you have Python 3.10+ and Node.js installed.
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/Clockwork-CVM-Compiler.git
+git clone https://github.com/AnotherSamWithADream/Clockwork-CVM-Compiler.git
 cd Clockwork-CVM-Compiler
 ```
 
